@@ -10,4 +10,10 @@ setup(
     license="ysoftman-test",
     # packages=["lemon"], # package directory name
     packages=find_packages(),
+    # ysoftman-man 명령으로 실행할 경우
+    entry_points={
+        'console_scripts': [
+                'ysoftman-lemon=lemon.main:main',
+        ]
+    },
 )
