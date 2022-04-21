@@ -1,3 +1,4 @@
+# lemon 패키지의 lemon_cost 모듈, lemon_name 모듈 사용
 from lemon import lemon_cost, lemon_name
 
 lemon_name.print_lemon_name(-1)

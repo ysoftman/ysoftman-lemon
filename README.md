@@ -13,6 +13,9 @@ pip install git+https://github.com/ysoftman/ysoftman-lemon
 # 설치 확인
 pip list | grep ysoftman_lemon
 
-# 사용하기
-python lemon_test.py
+# 패키지 사용하기
+python lemon_package_test.py
+
+# 패키지를 설치하면 ysoftman-lemon 명령 실행
+ysoftman-lemon
 ```
