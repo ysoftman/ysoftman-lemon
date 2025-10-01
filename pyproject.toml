@@ -1,12 +1,14 @@
+# pyproject.toml 작성시 poetry 방식(Poetry backend)
 [tool.poetry]
 name = "ysoftman-lemon"
 version = "0.1.0"
 description = "test package"
-license = { text = "MIT" }
-authors = [{ name = "ysoftman", email = "ysoftman@gmail.com" }]
+authors = ["ysoftman <ysoftman@gmail.com>"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+
+[tool.poetry.dependencies]
+python = ">=3.12"
 
 [tool.poetry.urls]
 repository = "https://github.com/ysoftman/ysoftman-lemon"
@@ -17,5 +19,5 @@ homepage = "https://github.com/ysoftman/ysoftman-lemon"
 my_package_cli = 'ysoftman-lemon=lemon.main:main'
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
