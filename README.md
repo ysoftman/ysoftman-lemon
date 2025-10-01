@@ -23,7 +23,7 @@ uv pip list | grep ysoftman_lemon
 python lemon_package_test.py
 
 # 패키지를 설치하면 ysoftman-lemon 명령 실행 예시
-ysoftman-lemon
-ysoftman-lemon 123
-ysoftman-lemon 1 20 300 -1 99
+ysoftman_lemon
+ysoftman_lemon 123
+ysoftman_lemon 1 20 300 -1 99
 ```
