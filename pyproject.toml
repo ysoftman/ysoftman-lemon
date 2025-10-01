@@ -1,6 +1,6 @@
 # pyproject.toml 작성시 poetry 방식(Poetry backend)
 [tool.poetry]
-name = "ysoftman-lemon"
+name = "ysoftman_lemon"
 version = "0.1.0"
 description = "test package"
 authors = ["ysoftman <ysoftman@gmail.com>"]
@@ -16,7 +16,7 @@ homepage = "https://github.com/ysoftman/ysoftman-lemon"
 
 [tool.poetry.scripts]
 # ysoftman-lemon 으로 실행하기 위해서
-my_package_cli = 'ysoftman-lemon=lemon.main:main'
+my_package_cli = 'ysoftman-lemon=ysoftman_lemon.main:main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
