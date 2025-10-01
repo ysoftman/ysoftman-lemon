@@ -1,4 +1,4 @@
-[project]
+[tool.poetry]
 name = "ysoftman-lemon"
 version = "0.1.0"
 description = "test package"
@@ -8,11 +8,11 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
-[project.urls]
+[tool.poetry.urls]
 repository = "https://github.com/ysoftman/ysoftman-lemon"
 homepage = "https://github.com/ysoftman/ysoftman-lemon"
 
-[project.scripts]
+[tool.poetry.scripts]
 # ysoftman-lemon 으로 실행하기 위해서
 my_package_cli = 'ysoftman-lemon=lemon.main:main'
 
