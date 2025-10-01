@@ -19,6 +19,10 @@ homepage = "https://github.com/ysoftman/ysoftman-lemon"
 # PyPI/Poetry wheel에서는 스크립트 이름에 하이픈(-) 금지
 ysoftman_lemon = "ysoftman_lemon.main:main"
 
+# tool.poetry.packages must be array
+[[tool.poetry.packages]]
+include = "ysoftman_lemon"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
