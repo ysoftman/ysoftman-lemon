@@ -1,0 +1,21 @@
+[project]
+name = "ysoftman-lemon"
+version = "0.1.0"
+description = "test package"
+license = { text = "MIT" }
+authors = [{ name = "ysoftman", email = "ysoftman@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+repository = "https://github.com/ysoftman/ysoftman-lemon"
+homepage = "https://github.com/ysoftman/ysoftman-lemon"
+
+[project.scripts]
+# ysoftman-lemon 으로 실행하기 위해서
+my_package_cli = 'ysoftman-lemon=lemon.main:main'
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
